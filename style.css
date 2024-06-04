@@ -1,0 +1,62 @@
+
+
+@media (min-width:319px) and (max-width:800px) {
+  .card{
+    display: block;
+    width: 100%;
+
+  }
+    .main {
+      flex: 1;
+    }
+    
+    h1 {
+      color:red;
+      font-size: 2rem;
+      text-align: center;
+    }
+    
+    footer {
+      text-align:center;
+      color: midnightblue;
+    } 
+}
+
+@media (min-width:801px) {
+  
+  .left {
+    display: inline-block;
+    width: 100%;
+  }
+  .right{
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .left img{
+    float:left;
+    height: 40%;
+    width: 40%;
+  }
+  .right img{
+    float:right;
+    width: 40%;
+    height: 40%;
+  }
+    .main {
+      flex: 1;
+    }
+    
+    h1 {
+      font-size: 5rem;
+    }
+    
+    footer {
+      text-align:center;
+      clear: both;
+      color: midnightblue;
+    }
+}
+
+
+
